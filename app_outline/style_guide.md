@@ -1,0 +1,1 @@
+visually appealing layout with background matching the current weather at user's location. 

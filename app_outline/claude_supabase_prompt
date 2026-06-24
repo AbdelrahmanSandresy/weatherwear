@@ -1,0 +1,21 @@
+I'm building a smart wardrobe assistant that turns weather forecasts into personalized outfit recommendations. Instead of checking the weather and guessing what to wear, users receive tailored clothing suggestions based on temperature, rain and wind conditions.
+
+Here is my DrawSQL schema diagram:
+@app_outline/weatherwear_drawsql.png
+
+Here are my user stories:
+@app_outline/user_journey.md
+
+Here is my exported SQL schema that may need some refinements:
+@app_outline/drawSQL-pgsql-export-2026-06-23.sql
+
+My Supabase project is already set up within this directory via the suppabase cli with npx.
+
+Please:
+1. Review the schema and confirm it matches the provided diagram.
+2. Run the SQL schema against my Supabase project to create the tableS **ONE AT A TIME**.
+3. After each step, pause and tell me what you did so I can verify it in the dashboard
+   before you continue.
+
+
+Is there any additional information you may need from me?
