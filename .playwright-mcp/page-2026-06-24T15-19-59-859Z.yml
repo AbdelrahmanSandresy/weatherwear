@@ -1,0 +1,26 @@
+- generic [ref=e111]:
+  - navigation [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]: 🌤
+      - generic [ref=e115]: Weatherwear
+    - generic [ref=e116]:
+      - link "Home" [ref=e117] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e118] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e119] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e121] [cursor=pointer]
+  - main [ref=e122]:
+    - generic [ref=e123]:
+      - heading "My Outfits" [level=1] [ref=e124]
+      - textbox "Search outfits..." [ref=e125]
+    - paragraph [ref=e126]: "Your outfits, sorted by date added:"
+    - list [ref=e127]:
+      - listitem [ref=e128] [cursor=pointer]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: ☀️
+          - generic [ref=e131]:
+            - generic [ref=e132]: Test Sunny Outfit
+            - generic [ref=e133]: Sunny · Jun 24, 2026
+        - button "Delete outfit" [ref=e135]: 🗑

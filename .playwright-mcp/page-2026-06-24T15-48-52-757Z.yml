@@ -1,0 +1,19 @@
+- generic [ref=e60]:
+  - navigation [ref=e61]:
+    - generic [ref=e62]:
+      - generic [ref=e63]: 🌤
+      - generic [ref=e64]: Weatherwear
+    - generic [ref=e65]:
+      - link "Home" [ref=e66] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e67] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e68] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e70] [cursor=pointer]
+  - main [ref=e71]:
+    - generic [ref=e72]:
+      - heading "My Outfits" [level=1] [ref=e73]
+      - textbox "Search outfits..." [ref=e74]
+    - paragraph [ref=e75]: "Your outfits, sorted by date added:"
+    - generic [ref=e76]: No outfits yet — add one from the Home page!

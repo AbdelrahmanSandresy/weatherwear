@@ -1,0 +1,64 @@
+- generic [ref=e41]:
+  - navigation [ref=e42]:
+    - generic [ref=e43]:
+      - generic [ref=e44]: 🌤
+      - generic [ref=e45]: Weatherwear
+    - generic [ref=e46]:
+      - link "Home" [ref=e47] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e48] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e49] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e51] [cursor=pointer]
+  - main [ref=e52]:
+    - generic [ref=e53]:
+      - heading "My Outfits" [level=1] [ref=e54]
+      - textbox "Search outfits..." [ref=e55]
+    - paragraph [ref=e56]: "Your outfits, sorted by date added:"
+    - list [ref=e57]:
+      - listitem [ref=e58] [cursor=pointer]:
+        - generic [ref=e59]:
+          - generic [ref=e60]: ☀️
+          - generic [ref=e61]:
+            - generic [ref=e62]: Test Sunny Outfit
+            - generic [ref=e63]: Sunny · Jun 24, 2026
+        - button "Delete outfit" [ref=e65]: 🗑
+  - generic [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - heading "Test Sunny Outfit" [level=2] [ref=e70]
+        - generic [ref=e71]: Added June 24, 2026
+      - button "✕" [ref=e72] [cursor=pointer]
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e75]: Photo
+        - generic [ref=e77] [cursor=pointer]: Tap to add photo
+      - generic [ref=e78]:
+        - generic [ref=e79]: Type
+        - generic [ref=e80]:
+          - button "Top" [ref=e81] [cursor=pointer]
+          - button "Bottom" [ref=e82] [cursor=pointer]
+          - button "Full Outfit" [ref=e83] [cursor=pointer]
+      - generic [ref=e84]:
+        - generic [ref=e85]: Outfit Name
+        - textbox [ref=e86]: Test Sunny Outfit
+      - generic [ref=e87]:
+        - generic [ref=e88]: Weather Condition
+        - generic [ref=e89]:
+          - button "Sunny" [ref=e90] [cursor=pointer]
+          - button "Cloudy" [ref=e91] [cursor=pointer]
+          - button "Rainy" [ref=e92] [cursor=pointer]
+          - button "Cold" [ref=e93] [cursor=pointer]
+          - button "Windy" [ref=e94] [cursor=pointer]
+          - button "Snowy" [ref=e95] [cursor=pointer]
+      - generic [ref=e96]:
+        - generic [ref=e97]: Temp Range
+        - textbox "e.g. 60–75°F" [ref=e98]
+      - generic [ref=e99]:
+        - generic [ref=e100]: Description
+        - textbox "e.g. Light jacket, jeans, sneakers" [ref=e101]
+    - generic [ref=e103]:
+      - button "SAVE" [ref=e104] [cursor=pointer]
+      - button "Worn" [ref=e105] [cursor=pointer]
+      - button "DELETE" [ref=e106] [cursor=pointer]

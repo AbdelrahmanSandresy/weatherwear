@@ -1,0 +1,31 @@
+- generic [ref=e68]:
+  - navigation [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e71]: 🌤
+      - generic [ref=e72]: Weatherwear
+    - generic [ref=e73]:
+      - link "Home" [ref=e74] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e75] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e76] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e78] [cursor=pointer]
+  - main [ref=e79]:
+    - generic [ref=e80]:
+      - heading "My Outfits" [level=1] [ref=e81]
+      - textbox "Search outfits..." [ref=e82]
+    - paragraph [ref=e83]: "Your outfits, sorted by date added:"
+    - list [ref=e84]:
+      - listitem [ref=e85] [cursor=pointer]:
+        - generic [ref=e86]:
+          - generic [ref=e87]: 🌧️
+          - generic [ref=e88]:
+            - generic [ref=e89]: Rainy Day Layers
+            - generic [ref=e90]: Rainy · 50–60°F · Jun 23, 2026
+        - button "Delete outfit" [active] [ref=e92]: 🗑
+  - generic [ref=e130]:
+    - paragraph [ref=e131]: Delete "Rainy Day Layers"? This cannot be undone.
+    - generic [ref=e132]:
+      - button "Cancel" [ref=e133] [cursor=pointer]
+      - button "Delete" [ref=e134] [cursor=pointer]

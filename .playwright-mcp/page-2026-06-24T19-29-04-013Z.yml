@@ -1,0 +1,35 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 🌤
+      - generic [ref=e7]: Weatherwear
+    - generic [ref=e8]:
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e10] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e11] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e13] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - heading "My Outfits" [level=1] [ref=e16]
+      - textbox "Search outfits..." [ref=e17]
+    - paragraph [ref=e18]: "Your outfits, sorted by date added:"
+    - list [ref=e20]:
+      - listitem [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: 🌧️
+          - generic [ref=e24]:
+            - generic [ref=e25]: Rainy Day Look (Updated)
+            - generic [ref=e26]: Rainy · 55–65°F · Jun 24, 2026
+        - generic [ref=e27]:
+          - generic [ref=e72]: Worn ✓
+          - button "Delete outfit" [ref=e28]: 🗑
+      - listitem [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: ☀️
+          - generic [ref=e32]:
+            - generic [ref=e33]: Test Sunny Outfit
+            - generic [ref=e34]: Sunny · Jun 24, 2026
+        - button "Delete outfit" [ref=e36]: 🗑

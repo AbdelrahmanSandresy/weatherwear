@@ -1,0 +1,24 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 🌤
+      - generic [ref=e7]: Weatherwear
+    - generic [ref=e8]:
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e10] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e11] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e13] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e16]: Detecting location...
+    - generic [ref=e17]:
+      - generic [ref=e18]: Today's outfit suggestion
+      - generic [ref=e19]: Loading weather...
+    - generic [ref=e20]:
+      - heading "Your Smart Wardrobe Assistant" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Weatherwear takes the guesswork out of getting dressed. Instead of checking the forecast and scrambling through your closet, we turn real-time weather conditions into personalized outfit recommendations drawn directly from clothes you already own.
+      - paragraph [ref=e23]: Whether it's a brisk autumn morning or a scorching summer afternoon, Weatherwear reads the temperature, wind, and precipitation so you don't have to. No more overdressing on a warm day or showing up underprepared for a cold snap.
+      - paragraph [ref=e24]: Build your closet, tag your outfits by condition, and let Weatherwear do the rest. Spend less time deciding and more time living.
+    - button "+ Add outfit to wardrobe" [ref=e25] [cursor=pointer]

@@ -1,0 +1,28 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: 🌤
+    - generic [ref=e7]: Weatherwear
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: First Name
+        - textbox "First" [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]: Last Name
+        - textbox "Last" [ref=e23]
+    - generic [ref=e12]:
+      - generic [ref=e13]: Username
+      - textbox "@username" [ref=e24]
+    - generic [ref=e25]:
+      - generic [ref=e26]: Email
+      - textbox "you@email.com" [ref=e27]
+    - generic [ref=e28]:
+      - generic [ref=e29]: Password
+      - textbox "••••••••" [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e32]: Confirm Password
+      - textbox "••••••••" [ref=e33]
+    - button "Create Account" [ref=e34] [cursor=pointer]
+    - paragraph [ref=e35]:
+      - text: Already have an account?
+      - button "Sign In" [ref=e36] [cursor=pointer]

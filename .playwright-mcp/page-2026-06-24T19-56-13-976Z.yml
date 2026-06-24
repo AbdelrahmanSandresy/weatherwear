@@ -1,0 +1,67 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 🌤
+      - generic [ref=e7]: Weatherwear
+    - generic [ref=e8]:
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e10] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e11] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e13] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e26]: ☀️ Bensonhurst • 84°F
+      - generic [ref=e27]: Clear sky · Feels like 83°F · Wind 6 mph
+    - generic [ref=e17]:
+      - generic [ref=e18]: Today's outfit suggestion
+      - generic [ref=e28]:
+        - generic [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]: TOP
+          - img "smart casual jacket" [ref=e31]
+          - generic [ref=e32]: smart casual jacket
+        - generic [ref=e33] [cursor=pointer]:
+          - generic [ref=e34]: BOTTOM
+          - img "summer shorts" [ref=e35]
+          - generic [ref=e36]: summer shorts
+    - generic [ref=e20]:
+      - heading "Your Smart Wardrobe Assistant" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Weatherwear takes the guesswork out of getting dressed. Instead of checking the forecast and scrambling through your closet, we turn real-time weather conditions into personalized outfit recommendations drawn directly from clothes you already own.
+      - paragraph [ref=e23]: Whether it's a brisk autumn morning or a scorching summer afternoon, Weatherwear reads the temperature, wind, and precipitation so you don't have to. No more overdressing on a warm day or showing up underprepared for a cold snap.
+      - paragraph [ref=e24]: Build your closet, tag your outfits by condition, and let Weatherwear do the rest. Spend less time deciding and more time living.
+    - button "+ Add outfit to wardrobe" [active] [ref=e25] [cursor=pointer]
+  - generic [ref=e38]:
+    - generic [ref=e39]:
+      - heading "Add Outfit" [level=2] [ref=e40]
+      - button "✕" [ref=e41] [cursor=pointer]
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]: Photo
+        - generic [ref=e46] [cursor=pointer]: Tap to add photo
+      - generic [ref=e47]:
+        - generic [ref=e48]: Type
+        - generic [ref=e49]:
+          - button "Top" [ref=e50] [cursor=pointer]
+          - button "Bottom" [ref=e51] [cursor=pointer]
+          - button "Full Outfit" [ref=e52] [cursor=pointer]
+      - generic [ref=e53]:
+        - generic [ref=e54]: Outfit Name
+        - textbox "e.g. Summer Casual" [ref=e55]
+      - generic [ref=e56]:
+        - generic [ref=e57]: Weather Condition
+        - generic [ref=e58]:
+          - button "Sunny" [ref=e59] [cursor=pointer]
+          - button "Cloudy" [ref=e60] [cursor=pointer]
+          - button "Rainy" [ref=e61] [cursor=pointer]
+          - button "Cold" [ref=e62] [cursor=pointer]
+          - button "Windy" [ref=e63] [cursor=pointer]
+          - button "Snowy" [ref=e64] [cursor=pointer]
+      - generic [ref=e65]:
+        - generic [ref=e66]: Temp Range
+        - textbox "e.g. 60–75°F" [ref=e67]
+      - generic [ref=e68]:
+        - generic [ref=e69]: Description
+        - textbox "e.g. Light jacket, jeans, sneakers" [ref=e70]
+    - button "SAVE" [ref=e73] [cursor=pointer]

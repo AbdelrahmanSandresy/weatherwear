@@ -1,0 +1,5 @@
+- generic [ref=e4]:
+  - generic [ref=e5]: ⚠️
+  - heading "Oops! Something went wrong." [level=1] [ref=e6]
+  - paragraph [ref=e7]: We've been notified and will work diligently on fixing it. Sorry for the inconvenience!
+  - button "← Home" [ref=e8] [cursor=pointer]

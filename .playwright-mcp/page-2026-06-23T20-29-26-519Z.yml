@@ -1,0 +1,15 @@
+- generic [ref=e69]:
+  - generic [ref=e70]:
+    - generic [ref=e71]: 🌤
+    - generic [ref=e72]: Weatherwear
+  - generic [ref=e73]:
+    - generic [ref=e74]:
+      - generic [ref=e75]: Email
+      - textbox "you@email.com" [ref=e76]
+    - generic [ref=e77]:
+      - generic [ref=e78]: Password
+      - textbox "••••••••" [ref=e79]
+    - button "Sign In" [ref=e80] [cursor=pointer]
+    - paragraph [ref=e81]:
+      - text: Don't have an account?
+      - button "Register" [ref=e82] [cursor=pointer]

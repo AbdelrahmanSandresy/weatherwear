@@ -1,0 +1,51 @@
+- generic [ref=e42]:
+  - navigation [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]: 🌤
+      - generic [ref=e46]: Weatherwear
+    - generic [ref=e47]:
+      - link "Home" [ref=e48] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e49] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e50] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e52] [cursor=pointer]
+  - main [ref=e53]:
+    - heading "Ways to reach us" [level=1] [ref=e54]
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - heading "As a user" [level=2] [ref=e57]
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - generic [ref=e60]: ✉️
+            - generic [ref=e61]:
+              - generic [ref=e62]: Email
+              - link "hello@outfitapp.com" [ref=e63] [cursor=pointer]:
+                - /url: mailto:hello@outfitapp.com
+          - listitem [ref=e64]:
+            - generic [ref=e65]: 📞
+            - generic [ref=e66]:
+              - generic [ref=e67]: Phone
+              - link "555-555-5555" [ref=e68] [cursor=pointer]:
+                - /url: tel:5555555555
+          - listitem [ref=e69]:
+            - generic [ref=e70]: 📝
+            - generic [ref=e71]:
+              - generic [ref=e72]: Contact form
+              - generic [ref=e73]: Submit a support request
+      - generic [ref=e75]:
+        - heading "As a developer" [level=2] [ref=e76]
+        - list [ref=e77]:
+          - listitem [ref=e78]:
+            - generic [ref=e79]: 🐙
+            - generic [ref=e80]:
+              - generic [ref=e81]: GitHub
+              - link "github.com/outfitweather" [ref=e82] [cursor=pointer]:
+                - /url: https://github.com/outfitweather
+          - listitem [ref=e83]:
+            - generic [ref=e84]: 💼
+            - generic [ref=e85]:
+              - generic [ref=e86]: LinkedIn
+              - link "linkedin.com/company/outfitweather" [ref=e87] [cursor=pointer]:
+                - /url: https://linkedin.com/company/outfitweather

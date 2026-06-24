@@ -1,0 +1,68 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 🌤
+      - generic [ref=e7]: Weatherwear
+    - generic [ref=e8]:
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e10] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e11] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e13] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - heading "My Outfits" [level=1] [ref=e16]
+      - generic [ref=e17]:
+        - textbox "Search outfits..." [ref=e18]
+        - button "+ Add outfit" [active] [ref=e19] [cursor=pointer]
+    - paragraph [ref=e20]: "Your outfits, sorted by date added:"
+    - list [ref=e22]:
+      - listitem [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: ☀️
+          - generic [ref=e26]:
+            - generic [ref=e27]: summer shorts
+            - generic [ref=e28]: Sunny · 70-85 · Jun 24, 2026
+        - button "Delete outfit" [ref=e30]: 🗑
+      - listitem [ref=e31] [cursor=pointer]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: 💨
+          - generic [ref=e34]:
+            - generic [ref=e35]: smart casual jacket
+            - generic [ref=e36]: Windy · 55-65 · Jun 24, 2026
+        - button "Delete outfit" [ref=e38]: 🗑
+  - generic [ref=e40]:
+    - generic [ref=e41]:
+      - heading "Add Outfit" [level=2] [ref=e42]
+      - button "✕" [ref=e43] [cursor=pointer]
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Photo
+        - generic [ref=e48] [cursor=pointer]: Tap to add photo
+      - generic [ref=e49]:
+        - generic [ref=e50]: Type
+        - generic [ref=e51]:
+          - button "Top" [ref=e52] [cursor=pointer]
+          - button "Bottom" [ref=e53] [cursor=pointer]
+          - button "Full Outfit" [ref=e54] [cursor=pointer]
+      - generic [ref=e55]:
+        - generic [ref=e56]: Outfit Name
+        - textbox "e.g. Summer Casual" [ref=e57]
+      - generic [ref=e58]:
+        - generic [ref=e59]: Weather Condition
+        - generic [ref=e60]:
+          - button "Sunny" [ref=e61] [cursor=pointer]
+          - button "Cloudy" [ref=e62] [cursor=pointer]
+          - button "Rainy" [ref=e63] [cursor=pointer]
+          - button "Cold" [ref=e64] [cursor=pointer]
+          - button "Windy" [ref=e65] [cursor=pointer]
+          - button "Snowy" [ref=e66] [cursor=pointer]
+      - generic [ref=e67]:
+        - generic [ref=e68]: Temp Range
+        - textbox "e.g. 60–75°F" [ref=e69]
+      - generic [ref=e70]:
+        - generic [ref=e71]: Description
+        - textbox "e.g. Light jacket, jeans, sneakers" [ref=e72]
+    - button "SAVE" [ref=e75] [cursor=pointer]

@@ -1,0 +1,51 @@
+- generic [ref=e58]:
+  - navigation [ref=e59]:
+    - generic [ref=e60]:
+      - generic [ref=e61]: 🌤
+      - generic [ref=e62]: Weatherwear
+    - generic [ref=e63]:
+      - link "Home" [ref=e64] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e65] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e66] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e71]: Could not fetch weather data.
+    - generic [ref=e72]:
+      - generic [ref=e73]: Today's outfit suggestion
+      - generic [ref=e74]: Enable location for outfit suggestions
+    - generic [ref=e75]:
+      - heading "Your Smart Wardrobe Assistant" [level=1] [ref=e76]
+      - paragraph [ref=e77]: Weatherwear takes the guesswork out of getting dressed. Instead of checking the forecast and scrambling through your closet, we turn real-time weather conditions into personalized outfit recommendations drawn directly from clothes you already own.
+      - paragraph [ref=e78]: Whether it's a brisk autumn morning or a scorching summer afternoon, Weatherwear reads the temperature, wind, and precipitation so you don't have to. No more overdressing on a warm day or showing up underprepared for a cold snap.
+      - paragraph [ref=e79]: Build your closet, tag your outfits by condition, and let Weatherwear do the rest. Spend less time deciding and more time living.
+    - button "+ Add outfit to wardrobe" [active] [ref=e80] [cursor=pointer]
+  - generic [ref=e82]:
+    - generic [ref=e83]:
+      - heading "Add Outfit" [level=2] [ref=e84]
+      - button "✕" [ref=e85] [cursor=pointer]
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]: Photo
+        - generic [ref=e90] [cursor=pointer]: Tap to add photo
+      - generic [ref=e91]:
+        - generic [ref=e92]: Outfit Name
+        - textbox "e.g. Summer Casual" [ref=e93]
+      - generic [ref=e94]:
+        - generic [ref=e95]: Weather Condition
+        - generic [ref=e96]:
+          - button "Sunny" [ref=e97] [cursor=pointer]
+          - button "Cloudy" [ref=e98] [cursor=pointer]
+          - button "Rainy" [ref=e99] [cursor=pointer]
+          - button "Cold" [ref=e100] [cursor=pointer]
+          - button "Windy" [ref=e101] [cursor=pointer]
+          - button "Snowy" [ref=e102] [cursor=pointer]
+      - generic [ref=e103]:
+        - generic [ref=e104]: Temp Range
+        - textbox "e.g. 60–75°F" [ref=e105]
+      - generic [ref=e106]:
+        - generic [ref=e107]: Description
+        - textbox "e.g. Light jacket, jeans, sneakers" [ref=e108]
+    - button "SAVE" [ref=e110] [cursor=pointer]
