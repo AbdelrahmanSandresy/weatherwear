@@ -7,8 +7,8 @@ function mapCondition(weather, windSpeed, tempF) {
   const main = weather[0].main
   if (main === 'Snow') return 'Snowy'
   if (main === 'Rain' || main === 'Drizzle' || main === 'Thunderstorm') return 'Rainy'
-  if (windSpeed > 15) return 'Windy'
   if (tempF < 45) return 'Cold'
+  if (windSpeed > 15) return 'Windy'
   if (main === 'Clear') return 'Sunny'
   return 'Cloudy'
 }

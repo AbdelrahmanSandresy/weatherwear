@@ -9,15 +9,39 @@ const CONDITION_ICONS = {
   Sunny: '☀️', Cloudy: '☁️', Rainy: '🌧️', Cold: '🥶', Windy: '💨', Snowy: '❄️',
 }
 
-function pickBest(pool, condition) {
-  if (!pool.length) return null
-  return pool.find(o => o.weatherCondition === condition) ?? pool[0]
+function parseTempRange(tempRange) {
+  if (!tempRange) return null
+  const m = tempRange.match(/(\d+)\s*[-–]\s*(\d+)/)
+  if (!m) return null
+  return { min: parseInt(m[1]), max: parseInt(m[2]) }
 }
 
-function pickPair(outfits, condition) {
+function scoreOutfit(outfit, condition, tempF) {
+  const isRainy = condition === 'Rainy'
+  const conditionPoints = isRainy ? 2 : 1
+  const tempPoints = isRainy ? 1 : 2
+  let s = 0
+  if (outfit.weatherCondition === condition) s += conditionPoints
+  if (tempF != null) {
+    const range = parseTempRange(outfit.tempRange)
+    if (range && tempF >= range.min && tempF <= range.max) s += tempPoints
+  }
+  return s
+}
+
+function pickBest(pool, condition, tempF) {
+  if (!pool.length) return null
+  const scored = pool
+    .map(o => ({ outfit: o, score: scoreOutfit(o, condition, tempF) }))
+    .sort((a, b) => b.score - a.score)
+  const best = scored[0]
+  return { outfit: best.outfit, exact: best.score >= 2 }
+}
+
+function pickPair(outfits, condition, tempF) {
   return {
-    top: pickBest(outfits.filter(o => o.category === 'Top'), condition),
-    bottom: pickBest(outfits.filter(o => o.category === 'Bottom'), condition),
+    top: pickBest(outfits.filter(o => o.category === 'Top'), condition, tempF),
+    bottom: pickBest(outfits.filter(o => o.category === 'Bottom'), condition, tempF),
   }
 }
 
@@ -51,7 +75,7 @@ export default function HomePage() {
   const { weather, error: weatherError, loading: weatherLoading } = useWeather()
   const { outfits } = useOutfits()
 
-  const pair = weather ? pickPair(outfits, weather.condition) : { top: null, bottom: null }
+  const pair = weather ? pickPair(outfits, weather.condition, weather.tempF) : { top: null, bottom: null }
   const hasPair = pair.top || pair.bottom
   const hasTaggedOutfits = outfits.some(o => o.category === 'Top' || o.category === 'Bottom')
 
@@ -98,7 +122,8 @@ export default function HomePage() {
           {weather && hasPair && (
             <div className="suggestion-pair">
               {['top', 'bottom'].map(slot => {
-                const outfit = pair[slot]
+                const entry = pair[slot]
+                const outfit = entry?.outfit
                 return (
                   <div
                     key={slot}
@@ -113,6 +138,9 @@ export default function HomePage() {
                           : <div className="suggestion-slot-noimg">👕</div>
                         }
                         <div className="suggestion-slot-name">{outfit.name}</div>
+                        {!entry.exact && (
+                          <div className="suggestion-slot-fallback">best available</div>
+                        )}
                       </>
                     ) : (
                       <div className="suggestion-slot-missing">None tagged</div>

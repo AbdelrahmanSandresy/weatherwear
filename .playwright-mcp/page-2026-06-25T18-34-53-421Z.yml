@@ -1,0 +1,49 @@
+- generic [ref=e43]:
+  - navigation [ref=e44]:
+    - generic [ref=e45]:
+      - generic [ref=e46]: 🌤
+      - generic [ref=e47]: Weatherwear
+    - generic [ref=e48]:
+      - link "Home" [ref=e49] [cursor=pointer]:
+        - /url: /
+      - link "My Outfits" [ref=e50] [cursor=pointer]:
+        - /url: /closet
+      - link "Contact" [ref=e51] [cursor=pointer]:
+        - /url: /contact
+    - button "Log out" [ref=e53] [cursor=pointer]
+  - main [ref=e54]:
+    - generic [ref=e55]:
+      - heading "My Outfits" [level=1] [ref=e56]
+      - generic [ref=e57]:
+        - textbox "Search outfits..." [ref=e58]
+        - button "+ Add outfit" [ref=e59] [cursor=pointer]
+    - paragraph [ref=e60]: "Your outfits, sorted by date added:"
+    - list [ref=e61]:
+      - listitem [ref=e62] [cursor=pointer]:
+        - generic [ref=e63]:
+          - generic [ref=e64]: 💨
+          - generic [ref=e65]:
+            - generic [ref=e66]: blue jeans
+            - generic [ref=e67]: Windy · 58-70 · Jun 24, 2026
+        - button "Delete outfit" [ref=e69]: 🗑
+      - listitem [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]:
+          - generic [ref=e72]: ☁️
+          - generic [ref=e73]:
+            - generic [ref=e74]: light jacket
+            - generic [ref=e75]: Cloudy · 55-65 · Jun 24, 2026
+        - button "Delete outfit" [ref=e77]: 🗑
+      - listitem [ref=e78] [cursor=pointer]:
+        - generic [ref=e79]:
+          - generic [ref=e80]: ☀️
+          - generic [ref=e81]:
+            - generic [ref=e82]: summer t shirt
+            - generic [ref=e83]: Sunny · 68-85 · Jun 24, 2026
+        - button "Delete outfit" [ref=e85]: 🗑
+      - listitem [ref=e86] [cursor=pointer]:
+        - generic [ref=e87]:
+          - generic [ref=e88]: ☀️
+          - generic [ref=e89]:
+            - generic [ref=e90]: summer short
+            - generic [ref=e91]: Sunny · 70-85 · Jun 24, 2026
+        - button "Delete outfit" [ref=e93]: 🗑
