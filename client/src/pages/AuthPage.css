@@ -134,3 +134,27 @@
   padding: 0;
   text-decoration: underline;
 }
+
+.auth-confirmation {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-confirmation-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-h);
+  text-align: center;
+}
+
+.auth-confirmation-body {
+  font-size: 0.9rem;
+  color: var(--text);
+  text-align: center;
+  line-height: 1.6;
+}
+
+.auth-confirmation-body strong {
+  color: var(--text-h);
+}

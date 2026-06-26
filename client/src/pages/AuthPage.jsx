@@ -8,6 +8,7 @@ export default function AuthPage() {
   const [errors, setErrors] = useState({})
   const [submitError, setSubmitError] = useState('')
   const [loading, setLoading] = useState(false)
+  const [registered, setRegistered] = useState(false)
   const { login, register } = useAuth()
   const navigate = useNavigate()
 
@@ -61,7 +62,7 @@ export default function AuthPage() {
           last_name: registerForm.lastName,
           username: registerForm.username,
         })
-        navigate('/')
+        setRegistered(true)
       }
     } catch (err) {
       setSubmitError(err.message)
@@ -74,6 +75,33 @@ export default function AuthPage() {
     setMode(newMode)
     setErrors({})
     setSubmitError('')
+  }
+
+  if (registered) {
+    return (
+      <div className="auth-page">
+        <div className="auth-card">
+          <div className="auth-logo">
+            <span className="auth-logo-icon">🌤</span>
+            <span className="auth-logo-text">Weatherwear</span>
+          </div>
+          <div className="auth-confirmation">
+            <p className="auth-confirmation-title">Check your email</p>
+            <p className="auth-confirmation-body">
+              We sent a confirmation link to <strong>{registerForm.email}</strong>.
+              Click it to activate your account, then come back to sign in.
+            </p>
+            <button
+              type="button"
+              className="auth-submit"
+              onClick={() => { setRegistered(false); setMode('login') }}
+            >
+              Back to Sign In
+            </button>
+          </div>
+        </div>
+      </div>
+    )
   }
 
   return (

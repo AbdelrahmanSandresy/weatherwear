@@ -1,0 +1,15 @@
+[      93ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5199/node_modules/.vite/deps/react-dom_client.js?v=3fe0c9f5:14335
+[     218ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5199/auth:0
+[    8777ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5199/auth:0
+[    8777ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5199/auth:0
+[   40203ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5199/auth:0
+[   52164ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5199/@vite/client:992
+[   71167ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) @ http://localhost:5199/auth:0
+[   71167ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) @ http://localhost:5199/auth:0
+[  113529ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5199/auth:0
+[  124237ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://crxgvfidqlljfghtkhoi.supabase.co/auth/v1/token?grant_type=password:0
+[  162879ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://crxgvfidqlljfghtkhoi.supabase.co/auth/v1/token?grant_type=password:0
+[  163748ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) @ http://localhost:5199/auth:0
+[  163748ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) @ http://localhost:5199/auth:0
+[  179688ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://crxgvfidqlljfghtkhoi.supabase.co/auth/v1/signup:0
+[  196990ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) @ http://localhost:5199/auth:0
